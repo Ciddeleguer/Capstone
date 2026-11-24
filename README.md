@@ -10,7 +10,6 @@ An offline, RFID-powered attendance system built on the **ESP32**, designed for 
 ![RFID](https://img.shields.io/badge/RFID-MFRC522-ffd166?style=for-the-badge)
 ![RTC](https://img.shields.io/badge/RTC-DS3231-ff9e64?style=for-the-badge)
 ![LCD](https://img.shields.io/badge/Display-LCD%2016x2%20I2C-64ffda?style=for-the-badge)
-![HTML](https://img.shields.io/badge/HTML-CSS-JS-a0a4ff?style=for-the-badge)
 ![Accuracy](https://img.shields.io/badge/Scan%20Accuracy-100%25-2ea44f?style=for-the-badge)
 
 </div>
