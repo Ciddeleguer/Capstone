@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#020b24">
+<title>RFID Portal - DEMO MODE</title>
+<link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+<div class="demo-badge">DEMO MODE</div>
+<div class="header">RFID Attendance System</div>
+<div class="real-time-clock">
+    <div class="clock-time" id="currentTime">--:--:--</div>
+    <div class="clock-date" id="currentDate">--/--/----</div>
+    <div class="clock-zone">Philippine Time (UTC+8)</div>
+</div>
+<div class="container">
+    <h2>Attendance Records</h2>
+    <div class="stats">
+        <div>
+            <div class="stat-number" id="totalScans">0</div>
+            <div>Total Scans</div>
+        </div>
+        <div>
+            <div class="stat-number" id="activeToday">-</div>
+            <div>Active Today</div>
+        </div>
+    </div>
+    <div class="last-scan">
+        <h3>Last Scan:</h3>
+        <div class="scan-data" id="lastScanData">No scans yet</div>
+    </div>
+    <pre id="logBox">Loading demo data...</pre>
+    <div class="btn-container">
+        <a class="btn" href="#" id="downloadBtn">📥 Download</a>
+        <a class="btn" href="#" id="scanBtn">📱 Simulate Scan</a>
+        <a class="btn danger" href="#" id="clearBtn">🗑️ Clear Logs</a>
+        <a class="btn toggleac" href="#" id="acBtn">🟢 Auto Clear</a>
+    </div>
+</div>
+<script src="js/demo.js"></script>
+</body>
+</html>
